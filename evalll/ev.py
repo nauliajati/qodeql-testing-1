@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import requests, json
+
+def main():
+    a = input("Masukan Angka 1: ")
+    eval(a)
 
 
-def addition(a, b):
-    return eval("%s + %s" % (a, b))
-
-
-result = addition(request.json["a"], request.json["b"])
-print("The result is %d." % result)
+if __name__ == "__main__":
+    main()
